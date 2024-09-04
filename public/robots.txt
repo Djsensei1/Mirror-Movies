@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /search/
+Disallow: /api/
+Disallow: /watch/
+Disallow: /src/
+
+Allow: /new-and-popular/
+Allow: /movies/
+Allow: /tv-shows/
+Allow: /home/
+Allow: /
+
+Sitemap: https://watch.ccr8.pro/sitemap.xml
