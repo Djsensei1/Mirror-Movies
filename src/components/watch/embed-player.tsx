@@ -1,4 +1,6 @@
 'use client';
+import Index from '@/app/(front)/page';
+import Link from 'next/link';
 import React from 'react';
 
 interface EmbedPlayerProps {
@@ -36,6 +38,16 @@ function EmbedPlayer(props: EmbedPlayerProps) {
         position: 'absolute',
         backgroundColor: '#000',
       }}>
+      <Link
+        href={'/home'}
+        style={{
+          color: '#fff',
+          position: 'absolute',
+          top: '15px',
+          right: '20px',
+        }}>
+        Back
+      </Link>
       <iframe
         ref={ref}
         width="100%"
