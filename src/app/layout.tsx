@@ -25,7 +25,12 @@ const fontHeading = localFont({
   variable: '--font-heading',
 });
 
+// Viewport defined outside of the metadata object
 export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+  maximumScale: 1.0,
+  userScalable: false,
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -77,6 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Here we use the viewport meta tag explicitly */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
