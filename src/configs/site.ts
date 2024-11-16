@@ -30,7 +30,7 @@ export const siteConfig = {
     'watch TV online',
     'no download',
     'full length movies',
-    'CCR8 Movies',
+    'Micorp Movies',
     'CCR8',
     'Free Movies',
     'Movie streaming sites',

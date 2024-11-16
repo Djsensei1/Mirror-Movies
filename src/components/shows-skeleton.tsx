@@ -41,8 +41,8 @@ const ShowsSkeleton = ({
                 {/* <picture className="relative aspect-[2/3] md:aspect-video"> */}
                 <picture className="relative aspect-[2/3]">
                   {/* <source */}
-                  {/*   media="(min-width: 780px)" */}
-                  {/*   srcSet={'/images/grey-thumbnail.jpg'} */}
+                  {/* media="(min-width: 780px)" */}
+                  {/* srcSet={'/images/grey-thumbnail.jpg'} */}
                   {/* /> */}
                   <img
                     alt={'poster'}

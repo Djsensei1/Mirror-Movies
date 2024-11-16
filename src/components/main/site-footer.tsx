@@ -49,10 +49,10 @@ const SiteFooter = () => {
       <div className="container flex h-24 items-center gap-2 px-8">
         <Icons.play className="hidden h-6 w-6 md:block" />
         <p className="text-center text-xs leading-loose sm:text-sm md:text-left">
-          CCR8 Movies does not host any files, it only links to 3rd party
+          Micorp Movies does not host any files, it only links to 3rd party
           services. Legal issues should be taken up with the file hosts and
-          providers. CCR8 Movies is not responsible for any media files shown by
-          the video providers.
+          providers. Micorp Movies is not responsible for any media files shown
+          by the video providers.
           <a
             href={siteConfig.links.twitter}
             target="_blank"
