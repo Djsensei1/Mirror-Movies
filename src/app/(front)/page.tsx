@@ -1,3 +1,6 @@
+//src/app/(front)/page.tsx
+
+import PopupContainer from '@/components/PopupContainer';
 import { Icons } from '@/components/icons';
 import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button';
@@ -8,6 +11,7 @@ import Link from 'next/link';
 export default function Index() {
   return (
     <>
+      <PopupContainer />
       <section
         id="hero"
         aria-labelledby="hero-heading"
