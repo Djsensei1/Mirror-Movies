@@ -1,4 +1,4 @@
-# CineGeek 2.0 beta
+# Mirror Movies 1.0 beta
 
 A movie and series streaming website.
 
